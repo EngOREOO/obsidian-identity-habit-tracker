@@ -1,0 +1,9 @@
+{
+  "id": "habit-streak-identity-tracker",
+  "name": "Habit Streak & Identity Tracker",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Identity & consistency engine inspired by Atomic Habits: identity XP & badges, 30-day consistency, Never-Miss-Twice, freeze days, focus 2x XP, micro-habits, burnout guard, smart insights, heatmap and monthly reports. Works on top of Habit Journey and Reading Journey.",
+  "author": "Ahmed Hany",
+  "isDesktopOnly": false
+}
