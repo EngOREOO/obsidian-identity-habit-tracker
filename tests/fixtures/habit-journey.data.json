@@ -1,0 +1,18 @@
+{
+  "challengeStart": "2026-01-01",
+  "challengeDays": 90,
+  "streakPercent": 60,
+  "habits": [
+    { "id": "journal", "name": "Morning Journal", "group": "Mind", "type": "check", "emoji": "📝" },
+    { "id": "meditation", "name": "Meditation", "group": "Mind", "type": "count", "target": 5, "step": 1, "unit": "sessions", "emoji": "🧘" },
+    { "id": "gym", "name": "Gym", "group": "Body", "type": "check", "emoji": "🏋️" },
+    { "id": "water", "name": "3L Water", "group": "Body", "type": "count", "target": 3, "step": 1, "unit": "L", "emoji": "💧" },
+    { "id": "sunlight", "name": "Morning Sunlight", "group": "Body", "type": "check", "emoji": "🌞" },
+    { "id": "reading", "name": "Read 3 hours", "group": "Mind", "type": "reading", "emoji": "📚" },
+    { "id": "calculus", "name": "Calculus Course", "group": "Study", "type": "count", "target": 3, "step": 1, "emoji": "📐" },
+    { "id": "weekly-review", "name": "Weekly Review", "group": "Spirit", "type": "check", "created": "2099-01-01", "days": [5], "emoji": "🗓️" },
+    { "id": "gratitude", "name": "Gratitude", "group": "Spirit", "type": "check", "emoji": "🙏" }
+  ],
+  "log": {},
+  "tasks": []
+}
