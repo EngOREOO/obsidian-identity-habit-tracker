@@ -159,6 +159,8 @@ connects automatically. No configuration is needed.
 - **Habit Journey:** its habits become the source list, including groups, weekday schedules, count targets and archive dates. Groups map to identities, and a full ✅ is written back to its log, so both dashboards stay in sync in both directions.
 - **Reading Journey:** reading habits are completed automatically from logged reading hours (partial hours count as a micro-version). Its daily-notes folder is reused, and monthly reports include reading hours and finished books.
 
+- **[Book Mind & Reading Companion](https://github.com/EngOREOO/obsidian-book-mind):** reading sessions you time in Book Mind are logged into Reading Journey's hours, which complete your reading habit and give XP to your Reader identity.
+
 You can turn each integration off in settings. Without them, the tracker manages its own habits.
 
 ## 📈 Dataview recipes
