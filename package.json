@@ -1,0 +1,48 @@
+{
+  "name": "obsidian-identity-habit-tracker",
+  "version": "1.0.0",
+  "description": "Identity-based habit tracker for Obsidian inspired by Atomic Habits: identity XP & badges, 30-day consistency score, Never-Miss-Twice, freeze days, micro-habits, burnout guard, smart insights, heatmap, monthly reports, daily-note YAML sync, English/Arabic (RTL).",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "typecheck": "tsc -noEmit -skipLibCheck",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "release": "npm run build && node scripts/package.mjs",
+    "test": "node tests/run.mjs"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "obsidian-md",
+    "habit-tracker",
+    "habits",
+    "atomic-habits",
+    "streak",
+    "identity",
+    "gamification",
+    "daily-notes",
+    "heatmap",
+    "productivity",
+    "pkm",
+    "arabic",
+    "rtl"
+  ],
+  "author": "Ahmed Hany",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "esbuild": "0.25.12",
+    "obsidian": "1.8.7",
+    "tslib": "2.8.1",
+    "typescript": "5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngOREOO/obsidian-identity-habit-tracker.git"
+  },
+  "homepage": "https://github.com/EngOREOO/obsidian-identity-habit-tracker#readme",
+  "bugs": {
+    "url": "https://github.com/EngOREOO/obsidian-identity-habit-tracker/issues"
+  }
+}
